@@ -16,6 +16,7 @@ func NewEndPoint(storage storages.Storage) *restful.WebService {
 	service := new(restful.WebService)
 	service.
 		Path(EndPoint).
+		Filter(NewFilter().LogFilter).
 		Doc("Manage Users entities").
 		Consumes(restful.MIME_JSON).
 		Produces(restful.MIME_JSON)
