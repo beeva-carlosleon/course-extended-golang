@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github.com/emicklei/go-restful"
-	"github.com/course-extended-golang/users/storages"
 	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/storages"
+	"github.com/emicklei/go-restful"
 )
 
 const (

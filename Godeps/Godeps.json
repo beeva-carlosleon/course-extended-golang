@@ -17,6 +17,11 @@
 			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
 		},
 		{
+			"ImportPath": "github.com/coreos/etcd/client",
+			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
+			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
+		},
+		{
 			"ImportPath": "github.com/coreos/etcd/clientv3",
 			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
 			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
@@ -35,6 +40,26 @@
 			"ImportPath": "github.com/coreos/etcd/mvcc/mvccpb",
 			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
 			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/pathutil",
+			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
+			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/types",
+			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
+			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/version",
+			"Comment": "v3.1.0-rc.1-473-g9f8e82e",
+			"Rev": "9f8e82e1c0ca4cc1b1592806f6be0265ef815160"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-semver/semver",
+			"Comment": "v0.2.0-5-g5e3acbb",
+			"Rev": "5e3acbb5668c4c3deb4842615c4098eb61fb6b1e"
 		},
 		{
 			"ImportPath": "github.com/emicklei/go-restful",
@@ -78,6 +103,10 @@
 			"ImportPath": "github.com/grpc-ecosystem/grpc-gateway/utilities",
 			"Comment": "v1.1.0-54-g6863684",
 			"Rev": "686368427ddb9a51628d63db6c74fbc96a206e1f"
+		},
+		{
+			"ImportPath": "github.com/mwitkow/go-etcd-harness",
+			"Rev": "4dc1cb3e1ff9e2edb0241bb0a7e78aa63db35a07"
 		},
 		{
 			"ImportPath": "github.com/onsi/ginkgo",
@@ -213,6 +242,10 @@
 			"ImportPath": "github.com/onsi/gomega/types",
 			"Comment": "v1.0-91-g7ce781e",
 			"Rev": "7ce781ea776b2fd506491011353bded2e40c8467"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "b94837a2404ab90efe9289e77a70694c355739cb"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",

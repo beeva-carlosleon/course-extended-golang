@@ -6,10 +6,10 @@ import (
 	"fmt"
 	log "github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
+	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/storages"
 	"golang.org/x/net/context"
 	"time"
-	"github.com/course-extended-golang/users/storages"
-	"github.com/course-extended-golang/users"
 )
 
 type EtcdDB struct {
@@ -18,7 +18,7 @@ type EtcdDB struct {
 
 func New(endpoint string) storages.Storage {
 	etcd := new(EtcdDB)
-	etcd.config=clientv3.Config{
+	etcd.config = clientv3.Config{
 		Endpoints:   []string{endpoint},
 		DialTimeout: 5 * time.Second,
 	}
@@ -26,8 +26,8 @@ func New(endpoint string) storages.Storage {
 }
 
 func (e *EtcdDB) Create(entity users.User) error {
-	client, err :=clientv3.New(e.config)
-	if err!=nil {
+	client, err := clientv3.New(e.config)
+	if err != nil {
 		return err
 	}
 	defer client.Close()
@@ -47,8 +47,8 @@ func (e *EtcdDB) Create(entity users.User) error {
 	return err
 }
 func (e *EtcdDB) Delete(entity users.User) error {
-	client, err :=clientv3.New(e.config)
-	if err!=nil {
+	client, err := clientv3.New(e.config)
+	if err != nil {
 		return err
 	}
 	defer client.Close()

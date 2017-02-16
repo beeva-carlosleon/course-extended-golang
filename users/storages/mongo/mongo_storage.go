@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 	log "github.com/Sirupsen/logrus"
+	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/storages"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"github.com/course-extended-golang/users/storages"
-	"github.com/course-extended-golang/users"
 )
 
 type MongoDB struct {

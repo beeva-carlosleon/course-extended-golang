@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"encoding/json"
 	log "github.com/Sirupsen/logrus"
+	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/routes"
 	"github.com/emicklei/go-restful"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"net/http"
 	"net/http/httptest"
 	"strings"
-	"github.com/course-extended-golang/users"
-	"github.com/course-extended-golang/users/routes"
 )
 
 var _ = Describe("User checks", func() {

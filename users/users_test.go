@@ -2,9 +2,9 @@ package users_test
 
 import (
 	log "github.com/Sirupsen/logrus"
+	"github.com/course-extended-golang/users"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/course-extended-golang/users"
 )
 
 var _ = Describe("User checks", func() {

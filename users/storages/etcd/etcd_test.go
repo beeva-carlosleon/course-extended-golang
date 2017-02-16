@@ -2,11 +2,11 @@ package etcd_test
 
 import (
 	log "github.com/Sirupsen/logrus"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 	"github.com/course-extended-golang/users"
 	"github.com/course-extended-golang/users/storages"
 	"github.com/course-extended-golang/users/storages/etcd"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("User checks", func() {

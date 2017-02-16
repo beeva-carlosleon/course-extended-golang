@@ -3,9 +3,9 @@ package mysql
 import (
 	"database/sql"
 	log "github.com/Sirupsen/logrus"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/course-extended-golang/users/storages"
 	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/storages"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type MySQL struct {

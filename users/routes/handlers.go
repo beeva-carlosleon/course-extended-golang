@@ -3,10 +3,10 @@ package routes
 import (
 	"errors"
 	log "github.com/Sirupsen/logrus"
+	"github.com/course-extended-golang/users"
+	"github.com/course-extended-golang/users/storages"
 	"github.com/emicklei/go-restful"
 	"net/http"
-	"github.com/course-extended-golang/users/storages"
-	"github.com/course-extended-golang/users"
 )
 
 type Handler interface {

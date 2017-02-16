@@ -1,6 +1,5 @@
 package storages
 
-
 import "github.com/course-extended-golang/users"
 
 type Storage interface {
