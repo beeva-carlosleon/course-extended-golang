@@ -25,9 +25,9 @@ var _ = Describe("User checks", func() {
 	BeforeEach(func() {
 		user = users.User{Id: 1, Name: "Carlos", SurName: "León", Age: 38}
 		userBody, err = json.Marshal(user)
-		Expect(err).To(BeNil())
+		Expect(err).NotTo(HaveOccurred())
 		errorEntityBody, err = json.Marshal(errorEntity)
-		Expect(err).To(BeNil())
+		Expect(err).NotTo(HaveOccurred())
 	})
 	AfterEach(func() {
 		mockStorage.Delete(user)
